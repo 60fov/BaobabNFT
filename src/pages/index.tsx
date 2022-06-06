@@ -1,13 +1,13 @@
 import { FC } from 'react'
 import { APP_NAME } from '@/lib/consts'
-import { ConnectButton } from '@rainbow-me/rainbowkit';
 import ConnectWallet from '@/components/ConnectWallet';
 import Gallery from '@/components/Gallery';
 
 const Home: FC = () => {
 	return (
+		
 		<div> 
-			{/* <ConnectButton></ConnectButton> */}
+			<h1 className="text-4xl font-bold absolute left-5 top-5"> {APP_NAME} </h1>
 			<div className="absolute right-5 top-5">
 				<ConnectWallet></ConnectWallet>
 			</div>
