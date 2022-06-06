@@ -46,7 +46,7 @@ const Gallery: FC<{ show?: Visibility }> = ({ show = 'always' }) => {
             onMutate( {args, overrides} ) {
 
             },
-            args: [ account.address, id, 1, []]
+            args: [ account?.address, id, 1, []]
         }
     )
 
